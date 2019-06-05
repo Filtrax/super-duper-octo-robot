@@ -1,2 +1,3 @@
-# super-duper-octo-robot
+# Fortran zad2 FFT
+
 fortran zad2
