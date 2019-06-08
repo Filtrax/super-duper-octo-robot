@@ -22,7 +22,7 @@ program main
 
     do i = 1, n
         t = t + step
-        input(i) = cos(2 * PI * t * 2) + ( 1/2 - rand() )*0.2
+        input(i) = cos(2 * PI * t * 2) + ( 0.5 - rand() )*0.2
         write(1, *) t, " ", input(i)
     end do
 
